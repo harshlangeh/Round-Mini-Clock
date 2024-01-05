@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://th.bing.com/th/id/OIG.MIp7AVmvFK40TCeo6O7_?pid=ImgGn);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+}
+
+.clock{
+    height: 50vh;
+    width: 50vh;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 50%;
+    font-weight: 900;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px); 
+    background-color: rgba(0, 255, 251, 0.354);
+}
